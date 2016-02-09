@@ -1,1 +1,1 @@
-ln -sv “~/.dotfiles/vim/.vimrc” ~
+ln -sfv ~/.dotfiles/vim/.vimrc ~ 
