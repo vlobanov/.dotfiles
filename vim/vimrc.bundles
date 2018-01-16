@@ -29,3 +29,5 @@ if filereadable(expand("~/.vimrc.bundles.local"))
 endif
 
 call plug#end()
+
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
