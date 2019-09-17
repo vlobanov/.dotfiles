@@ -113,3 +113,6 @@ set splitbelow
 set splitright
 
 au BufNewFile,BufRead *.tpl set filetype=html
+au BufNewFile,BufRead *.blade.php set filetype=html
+
+let g:jsx_ext_required = 0
